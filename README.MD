@@ -1,10 +1,6 @@
 # ushell-module-rbenv
 > Unix like shell module for rbenv.
 
-## resources:
-+ http://www.jianshu.com/p/ACs3kA
-+ https://ruby-china.org/wiki/rbenv-guide
-
 
 ## install:
 ```bash
@@ -24,9 +20,18 @@ git clone git://github.com/AndorChen/rbenv-china-mirror.git ~/.rbenv/plugins/rbe
 
 # 然后把下面的代码放到 ~/.bash_profile 里
 
+## yum install -y gem;
+
 export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
 
 # 注意 Unubtu请放到 ~/.bashrc 里, zsh用户是 ~/.zshrc
 # 然后重开一个终端就可以执行 rbenv 了.
 ```
+
+
+## resources:
++ http://www.jianshu.com/p/ACs3kA
++ https://ruby-china.org/wiki/rbenv-guide
++ https://www.digitalocean.com/community/tutorials/how-to-install-ruby-on-rails-with-rbenv-on-centos-7
++ https://gist.github.com/jpfuentes2/2002954
