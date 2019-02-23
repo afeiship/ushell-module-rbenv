@@ -1,0 +1,24 @@
+{
+  "name": "ushell-module-rbenv",
+  "version": "0.0.1",
+  "description": "Unix like shell module for rbenv.",
+  "main": "index.sh",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/afeiship/ushell-module-rbenv.git"
+  },
+  "keywords": [
+    "ushell",
+    "unix",
+    "shell",
+    "ushell-module-rbenv"
+  ],
+  "authors": [
+    "feizheng <1290657123@qq.com>"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/afeiship/ushell-module-rbenv/issues"
+  },
+  "homepage": "https://github.com/afeiship/ushell-module-rbenv"
+}
