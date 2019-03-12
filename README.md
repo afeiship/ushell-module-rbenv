@@ -6,6 +6,7 @@
 - ./install.sh
 
 ## install-on-mac:
+> 并不推荐用这种安装方式，因为后续安装版本的时候，会出现慢，build 失败等各种问题。
 - ./install-on-mac.sh
 
 
