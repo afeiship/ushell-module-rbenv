@@ -2,7 +2,7 @@
 ## path:
 ROOT_PATH=$(dirname $BASH_SOURCE);
 
-export PATH="$HOME/.rbenv/bin:$PATH";
+export PATH="$HOME/.rbenv/bin:$HOME/.rbenv/shims:$PATH";
 eval "$(rbenv init -)";
 
 ## aliases:
