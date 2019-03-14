@@ -5,7 +5,7 @@ ROOT_PATH=$(dirname $BASH_SOURCE);
 # check if dir exists:
 export RBENV_ROOT="${HOME}/.rbenv";
 if [ -d "${RBENV_ROOT}" ]; then
-    export PATH="${RBENV_ROOT}/bin:${PATH}";
+    export PATH="${RBENV_ROOT}/bin:${RBENV_ROOT}/shims:${PATH}";
     eval "$(rbenv init -)";
 fi
 
