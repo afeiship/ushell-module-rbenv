@@ -2,8 +2,12 @@
 ## path:
 ROOT_PATH=$(dirname $BASH_SOURCE);
 
-export PATH="$HOME/.rbenv/bin:$PATH";
-eval "$(rbenv init -)";
+# check if dir exists:
+export RBENV_ROOT="${HOME}/.rbenv";
+if [ -d "${RBENV_ROOT}" ]; then
+    export PATH="${RBENV_ROOT}/bin:${PATH}";
+    eval "$(rbenv init -)";
+fi
 
 ## aliases:
 alias rbenv-list='rbenv install --list';
