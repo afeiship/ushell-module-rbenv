@@ -9,6 +9,9 @@ if [ -d "${RBENV_ROOT}" ]; then
     eval "$(rbenv init -)";
 fi
 
+# for nokogiri
+export NOKOGIRI_USE_SYSTEM_LIBRARIES=true
+
 ## aliases:
 alias rbenv-list='rbenv install --list';
 alias rbenv-i='rbenv install';
