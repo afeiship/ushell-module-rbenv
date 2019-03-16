@@ -11,6 +11,8 @@ fi
 
 # for nokogiri
 export NOKOGIRI_USE_SYSTEM_LIBRARIES=true
+# gem install nokogiri -- --with-xml2-include=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/libxml2 --use-system-libraries
+
 
 ## aliases:
 alias rbenv-list='rbenv install --list';
