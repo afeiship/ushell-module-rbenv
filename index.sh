@@ -20,5 +20,7 @@ alias rbenv-list='rbenv install --list';
 alias rbenv-i='rbenv install';
 alias rbenv-vers='rbenv versions';
 alias rbenv-global='rbenv global';
+alias rbenv-update='brew upgrade rbenv; brew upgrade ruby-build'
+
 
 unset ROOT_PATH;
