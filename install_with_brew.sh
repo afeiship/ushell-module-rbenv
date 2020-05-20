@@ -14,3 +14,6 @@ rbenv install 2.6.5
 
 # set globla
 rbenv global 2.6.5
+
+# open new terimnal window
+ruby -v
