@@ -8,3 +8,9 @@ brew install gcc
 
 # step3
 brew install rbenv
+
+# install ruby 2.6.5
+rbenv install 2.6.5
+
+# set globla
+rbenv global 2.6.5

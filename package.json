@@ -1,5 +1,5 @@
 {
-  "name": "ushell-module-rbenv",
+  "name": "@feizheng/ushell-module-rbenv",
   "version": "1.0.0",
   "description": "Unix like shell module for rbenv.",
   "main": "index.sh",
@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/afeiship/ushell-module-rbenv/issues"
   },
-  "homepage": "https://github.com/afeiship/ushell-module-rbenv"
+  "homepage": "https://github.com/afeiship/ushell-module-rbenv",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  }
 }

@@ -1,6 +1,11 @@
 # ushell-module-rbenv
 > Unix like shell module for rbenv.
 
+## installation
+```shell
+npm i @feizheng/ushell-module-rbenv
+```
+
 ## resources
 + http://www.jianshu.com/p/ACs3kA
 + https://ruby-china.org/wiki/rbenv-guide
