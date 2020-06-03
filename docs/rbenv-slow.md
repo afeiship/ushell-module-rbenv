@@ -9,6 +9,7 @@ rbenv install 2.6.5
 # <!-- check -->
 rbenv versions
 rbenv global 2.6.5
+rbenv rehash
 ruby --version
 ```
 
