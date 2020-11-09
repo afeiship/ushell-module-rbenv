@@ -3,7 +3,7 @@
 
 ## installation
 ```shell
-npm i @feizheng/ushell-module-rbenv
+npm i @jswork/ushell-module-rbenv
 ```
 
 ## openssl problems

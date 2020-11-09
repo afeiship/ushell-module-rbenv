@@ -1,6 +1,6 @@
 {
-  "name": "@feizheng/ushell-module-rbenv",
-  "version": "1.0.1",
+  "name": "@jswork/ushell-module-rbenv",
+  "version": "1.0.0",
   "description": "Unix like shell module for rbenv.",
   "main": "index.sh",
   "repository": {
