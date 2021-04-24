@@ -1,6 +1,6 @@
 {
   "name": "@jswork/ushell-module-rbenv",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Unix like shell module for rbenv.",
   "main": "index.sh",
   "repository": {
@@ -8,10 +8,11 @@
     "url": "git+https://github.com/afeiship/ushell-module-rbenv.git"
   },
   "keywords": [
-    "ushell",
-    "unix",
-    "shell",
-    "ushell-module-rbenv"
+    "rbenv",
+    "ruby",
+    "rvm",
+    "mirror",
+    "cache"
   ],
   "authors": [
     "feizheng <1290657123@qq.com>"
