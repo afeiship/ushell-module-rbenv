@@ -24,5 +24,6 @@ alias rbenv-vers='rbenv versions';
 alias rbenv-global='rbenv global';
 alias rbenv-update='brew upgrade rbenv; brew upgrade ruby-build'
 
-
+# warning: Please check that your locale settings
+export LC_ALL=C
 unset ROOT_PATH;
