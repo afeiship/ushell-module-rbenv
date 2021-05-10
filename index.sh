@@ -14,8 +14,12 @@ fi
 export NOKOGIRI_USE_SYSTEM_LIBRARIES=true
 # gem install nokogiri -- --with-xml2-include=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/libxml2 --use-system-libraries
 
-# 2020-05-20 08:07:12 add
-export RUBY_CONFIGURE_OPTS="--with-openssl-dir=$(brew --prefix openssl@1.1)";
+# Mac OS:
+if [[ $USM_OS_TYPE == 'macos' ]]; then
+    # 2020-05-20 08:07:12 add
+    export RUBY_CONFIGURE_OPTS="--with-openssl-dir=$(brew --prefix openssl@1.1)";
+fi
+
 
 ## aliases:
 alias rbenv-list='rbenv install --list';
